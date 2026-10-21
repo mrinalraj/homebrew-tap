@@ -1,20 +1,20 @@
 class Autopilot < Formula
   desc "Triage Linear tickets and launch Claude Code sessions in worktrees"
   homepage "https://github.com/mrinalraj/autopilot"
-  version "0.1.0-beta.7"
+  version "0.1.0-beta.8"
 
   on_arm do
-    url "https://github.com/mrinalraj/autopilot/releases/download/v0.1.0-beta.7/autopilot-0.1.0-beta.7-darwin-arm64.tar.gz"
-    sha256 "590e22f61ab91efc0241af981e516205e9067ab1941ce1f11e71e16bca4fc362"
+    url "https://github.com/mrinalraj/autopilot/releases/download/v0.1.0-beta.8/autopilot-0.1.0-beta.8-darwin-arm64.tar.gz"
+    sha256 "235fad6e898f0394ac8c038d3f78c884c4b3072d10b45eebebfc2e214a3d2698"
   end
   on_intel do
-    url "https://github.com/mrinalraj/autopilot/releases/download/v0.1.0-beta.7/autopilot-0.1.0-beta.7-darwin-x64.tar.gz"
-    sha256 "d75247531c3ebd0dfd3b3b6d3cc297c8b6b2bf44f694621807e3ec93d7a873cb"
+    url "https://github.com/mrinalraj/autopilot/releases/download/v0.1.0-beta.8/autopilot-0.1.0-beta.8-darwin-x64.tar.gz"
+    sha256 "606339eed95bd556d0df980dd8e1038e8aaa9bdd000c9b1fe3f91e44d0fcac37"
   end
 
   depends_on :macos
   depends_on "terminal-notifier"
-  depends_on "gh" => :recommended
+  depends_on "gh"
 
   def install
     bin.install "autopilot"
