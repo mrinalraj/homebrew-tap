@@ -1,15 +1,15 @@
 class Autopilot < Formula
   desc "Triage Linear tickets and launch Claude Code sessions in worktrees"
   homepage "https://github.com/mrinalraj/autopilot"
-  version "0.1.0-beta.9"
+  version "0.1.0-beta.10"
 
   on_arm do
-    url "https://github.com/mrinalraj/autopilot/releases/download/v0.1.0-beta.9/autopilot-0.1.0-beta.9-darwin-arm64.tar.gz"
-    sha256 "1d2116b07d580da4eb57e383fc803b9b04fcb3e9e14e2aafeca043989d6836ac"
+    url "https://github.com/mrinalraj/autopilot/releases/download/v0.1.0-beta.10/autopilot-0.1.0-beta.10-darwin-arm64.tar.gz"
+    sha256 "6ed4c745b35b4194632f5cbf6dccf8894005f06877b7c1426c19f2cb0d11cb87"
   end
   on_intel do
-    url "https://github.com/mrinalraj/autopilot/releases/download/v0.1.0-beta.9/autopilot-0.1.0-beta.9-darwin-x64.tar.gz"
-    sha256 "ffb69aa12e0e12ad0697a75dae5edc7552c0bfe8132cf17361fa38483da704f5"
+    url "https://github.com/mrinalraj/autopilot/releases/download/v0.1.0-beta.10/autopilot-0.1.0-beta.10-darwin-x64.tar.gz"
+    sha256 "bb2c6af147dc0e635d3125b7d7f0099cd7c53c4539481dd5c00bd7b6abd78847"
   end
 
   depends_on :macos
